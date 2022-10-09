@@ -1,5 +1,5 @@
 import * as React from "react";
-import { LinkText } from "./layout";
+import { LinkText } from "./layout/layout";
 
 const PostList = ({ postData }: { postData: IPostData }) => {
   console.log(postData);

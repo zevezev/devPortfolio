@@ -1,6 +1,6 @@
 import { graphql } from "gatsby";
 import React from "react";
-import Layout from "../../components/layout";
+import Layout from "../../components/layout/layout";
 import PostList, { IPostData } from "../../components/PostList";
 import Seo from "../../components/seo";
 export const query = graphql`
