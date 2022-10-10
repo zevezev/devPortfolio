@@ -23,7 +23,7 @@ interface IData {
 }
 const Art: React.FC<IData> = ({ data }) => {
   return (
-    <Layout pageTitle="Art">
+    <Layout>
       <PostList postData={data} />
     </Layout>
   );
